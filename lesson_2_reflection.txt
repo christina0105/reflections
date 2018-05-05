@@ -1,0 +1,19 @@
+What happens when you initialize a repository? Why do you need to do it?
+将普通目录初始化为repo，可以进行git操作
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+使用git diff
+How can you use the staging area to make sure you have one commit per logical
+change?
+git diff --staged
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+尝试些新东西时
+How do the diagrams help you visualize the branch structure?
+可以看到每个分支的最近提交点以及追踪每个分支
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+在被合并的分支上建立了一个包含两个分支所有更改的commit
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+自动合并:方便但是不能按逻辑进行提交。手动合并：可以按逻辑进行提交但是相对不如自动方便。
